@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: rgb(153, 102, 255);
+}
+
+#to {
+    background-color:  rgb(38, 0, 77);
+    color: rgb(102, 0, 204);
+    
+}
+
+.letra {
+    color: aliceblue;
+}
+
+.contato {
+    background-color:rgb(230, 204, 255)
+}
