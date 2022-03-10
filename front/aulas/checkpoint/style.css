@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.head {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+ul, li, a {
+    display: flex;
+    text-decoration: none;
+    gap:150px;
+    
+    
+}
+

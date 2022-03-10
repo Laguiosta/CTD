@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    body {
+        background-color: rgb(190, 190, 190);
+        padding: 10px;
+    }
+
+.div p {
+    background-color: aquamarine;
+    padding: 5px;
+    border-style:outset;
+    border-color: rgb(91, 224, 241);
+}
+
+.div h1 {
+    background-color: rgb(35, 134, 201);
+    padding: 11px;
+    border-bottom: 10px solid;
+    border-color: rgb(182, 177, 177);
+
+}
+
+.section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    max-width: 400%;
+    max-height:400%;
+    
+}
+
+.fav {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 30px;
+    
+}
+.icone {
+    margin-top: 151px;
+    margin-left: 130px;
+    margin-right: auto;
+    border-radius: 95px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+
+    
+}
+
+
+.caixa1 {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-radius:50px;
+    width: 400px;
+    height: 700px;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.caixa2 {
+    display: flex;
+    background-color:  rgb(238, 238, 238);
+    border-radius:50px;
+    width: 400px;
+    height: 700px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 100px;
+}
+
+
+.a {
+    text-align: center;
+    background-color: rgb(12, 87, 156);
+    height: 40px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
