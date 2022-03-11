@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixa1 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.div1 {
+    width: 300px;
+    height: 150px;
+    background-color:rgb(141, 141, 141);
+}
+
+.caixa2 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.div2 {
+    width: 300px;
+    height: 150px;
+    background-color:rgb(141, 141, 141);
+}
+
+.caixa3 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.div3 {
+    width: 300px;
+    height: 150px;
+    background-color:rgb(141, 141, 141);
+}
