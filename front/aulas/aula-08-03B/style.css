@@ -6,7 +6,7 @@
 }
     body {
         background-color: rgb(190, 190, 190);
-        padding: 10px;
+
     }
 
 .div p {
@@ -91,6 +91,14 @@
     padding-top: 10px;
     color: aliceblue;
     text-decoration: none;
+}
+
+footer {
+    background-color: rgb(12, 87, 156);
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
 }
 
 

@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+
+.inicio {
+    display: flex;
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+    height: 100px;
+    padding-top: 25px;
+
+
+}
+
+.imagem  {
+    width: 50px;
+    height: 50px;
+
+}
+
+.homes {
+    display: flex;
+    margin-left: 700px;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 222, 222);
+    width: 1304px;
+    height: 500px;
+    gap: 100px;
+
+}
+
+.caixa1 {
+    display: flex;
+    background-image:url(./img/6-Delivery-1.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-top: 90px;
+    border-radius: 5px;
+}
+
+.texto1 {
+    display: flex;
+    margin-left: 58px;
+    gap: 10px;
+}
+
+.caixa2 {
+    display: flex;
+    background-color: aliceblue;
+    width: 500px;
+    height: 350px;
+    margin-top: 90px;
+    border-radius: 5px;
+}
+.imagem2 {
+    position: absolute;
+    margin-left: 240px;
+    margin-bottom: 240px;
+    width: 200px;
+    height: 200px;
+}
+
+.texto2 {
+    color: red;
+    margin-left: 140px;
+}
+
+.subt {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.final {
+    display: flex;
+    background-color:  rgb(46, 46, 46);
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.home2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.home2f {
+    display: flex;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
