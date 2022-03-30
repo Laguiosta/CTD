@@ -56,7 +56,7 @@
 
 .caixa2 {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 500px;
     height: 350px;
     margin-top: 90px;
