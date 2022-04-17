@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+    body {
+        height: 100vh;
+        background-color: #8041c0;
+        
+    }
+
+    main {
+        background-color: rgba(0, 0, 0, 0.7);
+ 
+    }
+/*  Fim do resetador*/
+
+/*   Header */
+#nav {
+    
+    display: flex;
+    height: 13vh;
+    background-image: linear-gradient(#26004d, rgba(0,0,0,.7));
+    text-align: center;
+    justify-content: center;
+    gap:50px;
+    position: fixed;
+    width: 100%;
+}
+
+.a-nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+
+    color: rgb(255, 255, 255);
+    text-shadow:
+      0 0 7px rgb(42, 2, 88),
+      0 0 10px rgba(50, 9, 116, 0.24),
+      0 0 21px rgb(106, 12, 168),
+      0 0 42px rgb(255, 255, 255),
+      0 0 82px rgb(255, 255, 255),
+      0 0 92px rgb(110, 22, 182),
+      0 0 102px rgb(165, 66, 223),
+      0 0 151px rgb(212, 0, 255);
+      
+    width: 15%;
+}
+
+
+/* Fim do Header*/
+
+main {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 200px 400px 400px;
+    gap: 10px;
+}
+.item1 {
+    grid-column: 1;
+    grid-row:1;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    color:white;
+    
+}
+
+.item2 {
+    grid-column: 1;
+    grid-row:2;
+    margin-left: 5vw;
+
+}
+
+.p {
+    color:white;
+
+}
+
+.item3 {
+    grid-column: 2;
+    grid-row:2;
+    margin-left: 100px;
+    height:60vh ;
+    text-align:center;
+    
+    background-image:radial-gradient(#26004d, rgba(0,0,0,.7));
+}
+div a img {
+    width: 100%;
+    height: 75%;
+}
+
+.item4 {
+    grid-column: 3;
+    grid-row:2;
+    margin-left: 100px;
+    height:60vh ;
+    text-align:center;
+
+    background-image:radial-gradient(#26004d, rgba(0,0,0,.7));
+}
+
+.h3 {
+    color: white;
+}
+
+.promoBala {
+    color: rgb(255, 255, 255);
+    text-shadow:
+      0 0 7px rgb(42, 2, 88),
+      0 0 10px rgba(50, 9, 116, 0.24),
+      0 0 21px rgb(106, 12, 168),
+      0 0 42px rgb(255, 255, 255),
+      0 0 82px rgb(255, 255, 255),
+      0 0 92px rgb(110, 22, 182),
+      0 0 102px rgb(165, 66, 223),
+      0 0 151px rgb(212, 0, 255);
+}
+
+
+.gratis {
+    color: white;
+}
+
+
+
+/* Inicio footer */
+
+footer {
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-image: linear-gradient( rgba(0,0,0,.7), #26004d );
+}
+
+ .img-footer {
+     border-radius: 100%;
+     
+ }
+
+ /* Termino footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
